@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>книги</title>
+        <style>
+            a {
+                color: rgb(171, 0, 206);
+                text-decoration: none;
+            }
 
+            a:visited {
+                color: rgb(171, 0, 206);
+            }
+
+            a:hover {
+                color: rgb(136, 2, 163);
+            }
+
+            a:active {
+                color: aliceblue;
+            }
+
+            body {
+             text-align: center;
+             background-image: url(https://kartinki.pics/uploads/posts/2021-07/1626741677_23-kartinkin-com-p-knizhnaya-polka-fon-krasivo-25.jpg);
+             background-position: center;
+             background-size: 65%;
+             background-attachment: fixed;
+            }
+
+            h1 {
+                color:rgb(255, 255, 255);
+                text-align: center;
+                text-decoration: underline;
+                font-size: 50px;
+                text-shadow:
+                 1px 1px 2px black,  
+               -1px -1px 2px black,  
+                1px -1px 2px black,  
+                -1px 1px 2px black;
+            }
+
+            ol {
+                color:rgb(171, 0, 206);
+                text-align: left;
+                font-size: 35px;
+              text-shadow:
+                 1px 1px 2px black,  
+               -1px -1px 2px black,  
+                1px -1px 2px black,  
+                -1px 1px 2px black;
+                display: inline-block;
+                position: relative;
+            }
+
+            li {
+
+                padding-bottom: 15%;
+                margin-bottom: 15%;
+                cursor: pointer;
+            }
+
+            li::before {
+                content: "";
+                position: absolute;
+                top: -8%;
+                left: 100%;
+                width: 400px;
+                height: 600px; 
+                background-size: cover;
+                display: none;
+            }
+
+            li:hover::before {
+                display: block;
+            }
+
+            li:nth-child(1)::before {
+                background-image: url(https://imo10.labirint.ru/books/599040/cover.jpg/242-0);
+            }
+
+            li:nth-child(2)::before {
+                background-image: url(https://imo10.labirint.ru/books/783186/cover.jpg/242-0);
+            }
+
+            li:nth-child(3)::before {
+                background-image: url(https://mnogoknig.lv/storage/media/648277/2405917-2.jpg);
+            }
+
+            li:nth-child(4)::before {
+                background-image: url(https://fantasto.net/wp-content/uploads/2019/10/gabriel-garsiya-markes-100-let-odinochestva.jpg);
+            }
+
+            li:nth-child(5)::before {
+                background-image: url(https://imo10.labirint.ru/books/998480/cover.jpg/242-0);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Интересные книги</h1>
+        <ol>
+            <li><a href="https://ru.wikipedia.org/wiki/%D0%A1%D1%83%D0%BC%D0%B5%D1%80%D0%BA%D0%B8_(%D1%80%D0%BE%D0%BC%D0%B0%D0%BD)">сумерки</a></li>
+            <li><a href="https://ru.wikipedia.org/wiki/%D0%92%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D0%BB%D0%B8%D0%BD_%D0%BA%D0%BE%D0%BB%D0%B5%D1%86">Властелин колец</a></li>
+            <li><a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F_%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2_%D0%BE_%D0%93%D0%B0%D1%80%D1%80%D0%B8_%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80%D0%B5">гарри поттер</a></li>
+            <li><a href="https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%BE_%D0%BB%D0%B5%D1%82_%D0%BE%D0%B4%D0%B8%D0%BD%D0%BE%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0">Сто лет одиночества</a></li>
+            <li><a href="https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%B4%D0%BE%D1%81%D1%82%D1%8C_%D0%B8_%D0%BF%D1%80%D0%B5%D0%B4%D1%83%D0%B1%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5">Гордость и предубеждение</a></li>
+        </ol>
+    </body>
+</html>
